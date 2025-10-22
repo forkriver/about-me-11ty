@@ -1,104 +1,112 @@
-@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+/* https://colorhunt.co/palette/0b244719376d576cbca5d7e8 */
 
-@media screen and (orientation: landscape) {
-	.box {
-		width: 40%;
-	}
+body {
+  background: #0b2447 url('https://i0.wp.com/patrickjohanneson.com/wp-content/uploads/2023/04/IMG_0331-2000.jpg' ) no-repeat fixed top center;
+  background-size: cover;
+  color: #eee;
+  text-align: center;
+  /* From modernfontstacks.com */
+  font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;  
+  font-size: 20px;
+  margin: 0;
+  padding-top: 2em;
+
 }
 
-@media screen and (orientation: portrait) {
-	.box {
-		width: 70%;
-	}
+h1, h2, h3 {
+	font-weight: normal;
 }
 
-html, body, .container {
-	text-align: center;
-	color: #eee;
-	background-color: #000; 
-	height: 100%;
-}
-
-.container {
-	display: flex;
-	align-items: flex;
-	justify-content: flex;
-}
-
-.box {
-	font-family: 'Share Tech Mono', monospace;
-	display: flex;
-	flex-direction: row;
-	margin: auto;
-	padding: 30px;
-	align-items: center;
-	justify-content: center;
-	-webkit-flex-align: center;
-	-ms-flex-align: center;
-	-webkit-align-items: center;
-}
-
-.icon {
-	border-radius: 50%;
-	height: 128px;
-	margin: 3%;
-	user-select: none;
-	-moz-user-select: none;
-	-webkit-user-drag: none;
-	-webkit-user-select: none;
-	-ms-user-select: none;
-}
-
-ul, li {
-	margin-left: 0; 
-	padding-left: 0;
-}
 
 h1 {
-	font-weight: bold;
-	display: block;
-	letter-spacing: 2px;
-	margin: 0px;
-	padding: 0px;
+	font-size: 3.2em;
 }
 
-h2, h3, h4, h5, h6 {
-	display: block;
-	margin: 0px;
-	padding: 0px;
+h2 {
+	font-size: 2.0em;
 }
 
-i {
-	font: italic;
-	color: #eee;
-	margin: 0px;
-	padding: 0px;
+h3 {
+	font-size: 1.6em;
+}
+
+.linktree a {
+	text-decoration: none;
+}
+
+.linktree li {
+  min-height: 2em;
+  backdrop-filter: blur( 16px );
+  text-align: center;
+  width: 32em;
+  margin: auto;
+  margin-top: 10px;
+  list-style: none;
+  border-radius: 16px;
+  box-shadow: #333 1px 1px 4px;
+  padding: 1em;
+}
+
+.linktree li:hover {
+  box-shadow: #345 1px 1px 4px;
+  background-color: rgba( 64, 64, 64, 0.25 );
+  backdrop-filter: blur( 24px );
+}
+
+@media only screen and (max-width: 420px) {
+  .linktree li {
+    min-width: 100%;
+  }
 }
 
 a {
-	font-weight: bold;
-	text-decoration: none;
-	color: #eee;
-	margin: 0px;
-	padding: 0px;
+	color: #def;
 }
 
-code {
-	font-family: 'Ubuntu Mono', monospace;
-	background-color: #000;
-	border: 1px solid #eee;
-	display: inline;
-	margin: 5px;
-	padding: 10px;
+a:hover {
+	color: #fff;
 }
 
-footer {
-	font-family: 'Ubuntu', monospace;
-	font-size: 12px;
-	position: fixed;
-	background-image: linear-gradient( rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 50%);
-	width: 100%;
-	bottom: 0;
-	left: 0;
+.linktree a li {
+  line-height: 1.2em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.linktree li p {
+  max-width: 500px;
+  margin: auto;
+}
+
+main {
+  background-color: rgba( 32, 32, 32, 0.3 );
+  padding: 2em;
+  backdrop-filter: blur( 8px );
+  border-radius: 16px;
+  box-shadow: #333 2px 2px 4px;
+  max-width: 45em;
+  margin: 2em auto;
+  text-align: center;
+}
+@media only screen and (max-width: 50em ) {
+	main {
+		max-width: 95%;
+		margin: auto;
+		background-color: rgba( 32, 32, 32, 0.7 );
+		backdrop-filter: blur( 4px );
+		border-radius: 0;
+	}
+	.linktree li {
+		max-width: 80%;
+		margin: 1em auto;
+	}
+
+code, pre {
+	font-size: 1.1rem;
+	font-family: 'Nimbus Mono PS', 'Courier New', monospace; 
+}
+
+h1 {
+  font-size: 3.2em;
+  font-weight: normal;
 }

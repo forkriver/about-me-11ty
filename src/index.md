@@ -1,20 +1,26 @@
-# About Me
+---
+title: Patrick Johanneson
+layout: layouts/base.njk
+---
 
-Lorem ipsum dolor sit amet, ***consectetur adipiscing elit***, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+My *main* site is at [patrickjohanneson.com](https://patrickjohanneson.com/), but it's easier to spell `patj.ca`.
 
-## Header 2
+## My content
 
-*Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*
+- [Fiction](https://patrickjohanneson.com/fiction/) Free to read!
+- [Photos](https://patrickjohanneson.com/category/photos/) I like to take photos, especially after dark
+- [Blog](https://patrickjohanneson.com/) I have *thoughts* and the occasional *opinion*
 
-Ut enim ad minim veniam:
+## Social Media
 
-### Header 3
+*aka* ailleurs.
 
-**Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur?**
+- [@patrickjohanneson.com on Bluesky](https://bsky.app/profile/@patrickjohanneson.com)
+- [@pjohanneson@mstdn.ca on the Fediverse](https://mstdn.ca/@pjohanneson)
+- [@pjohanneson on Instagram](https://instagram.com/pjohanneson/)
 
-#### Header 4
+## Credit where credit's due
 
-Quis nostrud exercitation:
-
-* Ullamco laboris nisi ut [aliquip](https://example.com)
-* Ex ea commodo [consequat](https://example.com).
+- Linktree based on [work by `n0toose`](https://codeberg.org/n0toose/eleventy-about-me) 
+- Powered by [Eleventy](https://11ty.dev/)
+- Fonts by [your browser](https://modernfontstacks.com/)

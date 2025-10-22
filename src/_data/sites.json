@@ -1,0 +1,65 @@
+[
+	{
+		"sectionTitle": "My Sites",
+		"pages": [
+			{
+				"url": "https://patrickjohanneson.com/fiction/",
+				"title": "Fiction",
+				"comment": "I've posted some of my short fiction here—it's free to read!"
+			},
+			{
+				"url": "https://patrickjohanneson.com/category/photos/",
+				"title": "Photos",
+				"comment": "I like to take photos, often after dark"
+			},
+			{
+				"url": "https://patrickjohanneson.com/",
+				"title": "Blog",
+				"comment": "I have <em>thoughts</em> and sometimes <em>opinions</em>"
+			}
+		]
+	},
+
+	{
+		"sectionTitle": "My Socials",
+		"pages": [
+			{
+				"url": "https://bsky.app/profile/patrickjohanneson.com",
+				"title": "Bluesky: @patrickjohanneson.com"
+			},
+			{
+				"url": "https://mstdn.ca/@pjohanneson",
+				"title": "Fediverse: @pjohanneson@mstdn.ca"
+			},
+			{
+				"url": "https://instagram.com/pjohanneson",
+				"title": "Instagram: @pjohanneson"
+			}
+		]
+	},
+
+	{
+		"sectionTitle": "Credits",
+		"pages": [
+			{
+				"url": "https://codeberg.org/n0toose/eleventy-about-me",
+				"title": "Linktree code",
+				"comment": "Based on work by <code>n0toose</code>"
+			},
+			{
+				"url": "https://11ty.dev",
+				"title": "Powered by Eleventy"
+			},
+			{
+				"url": "https://modernfontstacks.com/",
+				"title": "Fonts by your browser",
+				"comment": "Speed up your website by using available fonts!"  
+			},
+			{
+				"url": "https://patrickjohanneson.com/2023/04/24/aurora-april-23-2023/",
+				"title": "Background photo by yours truly",
+				"comment": "Taken during an evening in April, 2023"
+			}
+		]
+	}
+]

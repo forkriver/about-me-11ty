@@ -1,5 +1,7 @@
 # About Me
 
+Forked by Patrick Johanneson in Nov. 2025.
+
 > Personal website template built with Eleventy.
 
 ## Prerequisites
@@ -18,7 +20,7 @@ npm install
 npx eleventy
 ```
 
-* Your website will be placed inside of the `_site` folder and will be ready for deployment.
+* Your website will be placed inside of the `public` folder and will be ready for deployment.
 
 ### License
 
