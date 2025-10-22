@@ -25,15 +25,18 @@
 		"pages": [
 			{
 				"url": "https://bsky.app/profile/patrickjohanneson.com",
-				"title": "Bluesky: @patrickjohanneson.com"
+				"title": "Bluesky",
+				"comment":"@patrickjohanneson.com"
 			},
 			{
 				"url": "https://mstdn.ca/@pjohanneson",
-				"title": "Fediverse: @pjohanneson@mstdn.ca"
+				"title": "Fediverse",
+				"comment":"@pjohanneson@mstdn.ca"
 			},
 			{
 				"url": "https://instagram.com/pjohanneson",
-				"title": "Instagram: @pjohanneson"
+				"title": "Instagram",
+				"comment":"@pjohanneson"
 			}
 		]
 	},

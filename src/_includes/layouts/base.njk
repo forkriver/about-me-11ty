@@ -39,7 +39,7 @@
         {% for page in section.pages %}
           <a href="{{ page.url }}" target="_fromLinkTree">
           <li>
-          <strong>{{ page.title }}</strong>
+          <h3>{{ page.title }}</h3>
           {% if page.comment %}
           <p>{{ page.comment | safe }}</p>
           {% endif %}
