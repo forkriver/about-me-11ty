@@ -42,7 +42,7 @@
 		"sectionTitle": "Credits",
 		"pages": [
 			{
-				"url": "https://codeberg.org/n0toose/eleventy-about-me",
+				"url": "https://github.com/forkriver/about-me-11ty/",
 				"title": "Linktree code",
 				"comment": "Based on work by <code>n0toose</code>"
 			},
