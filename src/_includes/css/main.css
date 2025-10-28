@@ -30,6 +30,11 @@ h3 {
 	font-size: 1.6em;
 }
 
+ul.linktree {
+  margin: auto;
+  padding: 0;
+}
+
 .linktree a {
 	text-decoration: none;
 }
